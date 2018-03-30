@@ -54,6 +54,7 @@
 		90E7DB901EFB61E3007F9786 /* HMUserInfoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB8F1EFB61E3007F9786 /* HMUserInfoRequestTask.m */; };
 		90E7DB931EFB67DD007F9786 /* HMTrainingPopularTopicsRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB921EFB67DD007F9786 /* HMTrainingPopularTopicsRequestTask.m */; };
 		90E7DB9C1EFBAEAF007F9786 /* HMDownLoadRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB9B1EFBAEAF007F9786 /* HMDownLoadRequestTask.m */; };
+		97DB5DA8206DE14C0017361D /* DDWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB5DA7206DE0E20017361D /* DDWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		90E7DB921EFB67DD007F9786 /* HMTrainingPopularTopicsRequestTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTrainingPopularTopicsRequestTask.m; sourceTree = "<group>"; };
 		90E7DB9A1EFBAEAF007F9786 /* HMDownLoadRequestTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMDownLoadRequestTask.h; sourceTree = "<group>"; };
 		90E7DB9B1EFBAEAF007F9786 /* HMDownLoadRequestTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMDownLoadRequestTask.m; sourceTree = "<group>"; };
+		97DB5DA7206DE0E20017361D /* DDWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWebService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		904C30F91FA9AD8700B2596A /* DDWebService */ = {
 			isa = PBXGroup;
 			children = (
+				97DB5DA7206DE0E20017361D /* DDWebService.h */,
 				904C30FA1FA9AD8700B2596A /* Auxfun */,
 				904C310B1FA9AD8700B2596A /* Task */,
 				904C31101FA9AD8700B2596A /* Client */,
@@ -271,6 +274,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DB5DA8206DE14C0017361D /* DDWebService.h in Headers */,
 				904C312A1FA9ADEE00B2596A /* WSNetworkTool.h in Headers */,
 				904C31321FA9ADEE00B2596A /* WSRequestTask.h in Headers */,
 				904C31331FA9ADEE00B2596A /* WSTypeDefines.h in Headers */,
