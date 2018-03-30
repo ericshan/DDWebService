@@ -24,4 +24,4 @@ FOUNDATION_EXPORT const unsigned char DDWebServiceVersionString[];
 #import <DDWebService/WSNetworkMonitor.h>
 #import <DDWebService/NSError+WebServie.h>
 #import <DDWebService/WSNetworkConfig.h>
-#import <DDWebService/AFHTTPRequestSerializer+WSHTTPHeader.h>
+
