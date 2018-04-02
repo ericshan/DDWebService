@@ -54,6 +54,20 @@
 		90E7DB901EFB61E3007F9786 /* HMUserInfoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB8F1EFB61E3007F9786 /* HMUserInfoRequestTask.m */; };
 		90E7DB931EFB67DD007F9786 /* HMTrainingPopularTopicsRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB921EFB67DD007F9786 /* HMTrainingPopularTopicsRequestTask.m */; };
 		90E7DB9C1EFBAEAF007F9786 /* HMDownLoadRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7DB9B1EFBAEAF007F9786 /* HMDownLoadRequestTask.m */; };
+		9711392020725B0A00600C05 /* WSRequestAgent.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C30FB1FA9AD8700B2596A /* WSRequestAgent.h */; };
+		9711392120725B0A00600C05 /* WSNetworkTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31011FA9AD8700B2596A /* WSNetworkTool.h */; };
+		9711392220725B0A00600C05 /* NSString+WebService.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31031FA9AD8700B2596A /* NSString+WebService.h */; };
+		9711392320725B0A00600C05 /* WSNetworkMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31041FA9AD8700B2596A /* WSNetworkMonitor.h */; };
+		9711392420725B0A00600C05 /* NSError+WebServie.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31061FA9AD8700B2596A /* NSError+WebServie.h */; };
+		9711392520725B0A00600C05 /* WSQueryFormat.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31071FA9AD8700B2596A /* WSQueryFormat.h */; };
+		9711392620725B0A00600C05 /* WSNetworkConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31081FA9AD8700B2596A /* WSNetworkConfig.h */; };
+		9711392720725B0A00600C05 /* WSMultipartFormData.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31091FA9AD8700B2596A /* WSMultipartFormData.h */; };
+		9711392820725B0A00600C05 /* AFHTTPRequestSerializer+WSHTTPHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 90DA2C2A1FEA2B250046CC08 /* AFHTTPRequestSerializer+WSHTTPHeader.h */; };
+		9711392920725B0A00600C05 /* AFHTTPRequestSerializer+WSHTTPHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DA2C2B1FEA2B250046CC08 /* AFHTTPRequestSerializer+WSHTTPHeader.m */; };
+		9711392A20725B0A00600C05 /* WSRequestTask.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C310C1FA9AD8700B2596A /* WSRequestTask.h */; };
+		9711392B20725B0A00600C05 /* WSTypeDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C310D1FA9AD8700B2596A /* WSTypeDefines.h */; };
+		9711392C20725B0A00600C05 /* WSRequestCallbackProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C310E1FA9AD8700B2596A /* WSRequestCallbackProtocol.h */; };
+		9711392D20725B0A00600C05 /* WSNetWorkClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 904C31121FA9AD8700B2596A /* WSNetWorkClient.h */; };
 		97DB5DA8206DE14C0017361D /* DDWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB5DA7206DE0E20017361D /* DDWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -396,6 +410,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9711392020725B0A00600C05 /* WSRequestAgent.h in Sources */,
+				9711392120725B0A00600C05 /* WSNetworkTool.h in Sources */,
+				9711392220725B0A00600C05 /* NSString+WebService.h in Sources */,
+				9711392320725B0A00600C05 /* WSNetworkMonitor.h in Sources */,
+				9711392420725B0A00600C05 /* NSError+WebServie.h in Sources */,
+				9711392520725B0A00600C05 /* WSQueryFormat.h in Sources */,
+				9711392620725B0A00600C05 /* WSNetworkConfig.h in Sources */,
+				9711392720725B0A00600C05 /* WSMultipartFormData.h in Sources */,
+				9711392820725B0A00600C05 /* AFHTTPRequestSerializer+WSHTTPHeader.h in Sources */,
+				9711392920725B0A00600C05 /* AFHTTPRequestSerializer+WSHTTPHeader.m in Sources */,
+				9711392A20725B0A00600C05 /* WSRequestTask.h in Sources */,
+				9711392B20725B0A00600C05 /* WSTypeDefines.h in Sources */,
+				9711392C20725B0A00600C05 /* WSRequestCallbackProtocol.h in Sources */,
+				9711392D20725B0A00600C05 /* WSNetWorkClient.h in Sources */,
 				904C311F1FA9ADD400B2596A /* WSNetworkMonitor.m in Sources */,
 				904C31201FA9ADD400B2596A /* NSString+WebService.m in Sources */,
 				904C31211FA9ADD400B2596A /* WSQueryFormat.m in Sources */,
